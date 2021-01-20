@@ -1,0 +1,142 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+body
+	{
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: grey;
+	}
+.story
+	{
+		background: url(2.jpg) no-repeat left;
+		background-size: 55%;
+		background-color: lightgrey;
+		overflow: hidden;
+		padding: 100px 0;
+	}
+.inner-section
+	{
+		width: 55%;
+		float: right;
+		background-color: white;
+		padding: 140px;
+		box-shadow: 10px 10px 8px rgba(0,0,0,0.3)
+	}
+.VisionMission
+	{
+		background: url(13.jpg) no-repeat right;
+		background-size: 55%;
+		background-color: lightgrey;
+		overflow: hidden;
+		padding: 100px 0;
+	}
+.inner-section h1
+	{
+		color: blue;
+		line-height: 30px;
+		text-align: justify;
+
+	}
+.inner-section2
+	{
+		width: 55%;
+		float: left;
+		background-color: white;
+		padding: 140px;
+		box-shadow: 10px 10px 8px rgba(0,0,0,0.3)
+	}
+.inner-section2 h1
+	{
+		color: blue;
+		line-height: 30px;
+		text-align: justify;
+
+	}
+.container
+	{
+		max-width: 1140px;
+		margin: auto;
+		position: relative;
+		min-height: 1px;
+	}
+.Team
+	{
+		min-height: 100vh;
+		padding: 60px 15px;
+		background-color: lightgrey;
+	}
+.Team .card
+	{
+		width: 20%;
+		float: left;
+		padding: 0px 15px
+	}
+.Team .card .box
+	{
+		padding: 15px;
+		background-color: white;
+		border-radius: 5px;
+	}
+.Team .card .box img
+	{
+		width: 150px;
+		height: 150px;
+		display: block;
+		margin: 10px auto;
+		border-radius: 50%;
+
+	}
+.Team .card .box h4
+	{
+		font-size: 20px;
+		font-family: sans-serif;
+		margin: 15px 0px 10px;
+		color: blue;
+		text-align: center;
+	}
+.Team .card .box h5
+	{
+		font-size: 16px;
+		font-family: sans-serif;
+		margin: 15px 0px 10px;
+		color: black;
+		text-align: center;
+	}
+.Team .card .box p
+	{
+		font-size: 12px;
+		font-family: sans-serif;
+		margin: 15px 0px 10px;
+		color: black;
+		text-align: center;
+		text-decoration: none;
+	}
+html
+	{
+		scroll-behavior: smooth;
+	}
+
+.scrolls
+	{
+		position: absolute;
+		top: 50%;
+		transform:translateY(-50%);
+		right: 1.25em;
+		z-index: 2;
+		display: flex;
+		flex-direction: column;
+	}
+.navbar
+	{
+		position: fixed;
+		width: 100%;
+		background-color: darkgrey;
+		height: 4rem;
+		line-height: 3.5rem;
+	}
